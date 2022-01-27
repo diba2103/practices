@@ -21,6 +21,60 @@
         table,td,th{
             border: 1px solid black;
         }
+        p::first-letter{
+            color: aqua;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            width: 200px;
+        }
+        li a {
+          
+            display: block;
+            color: pink;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: greenyellow;
+            color: black;
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+        #name{
+            border: 2px solid;
+            padding: 10px;
+            box-shadow: 10px 10px red;
+        }
+        div.gallery {
+            margin: 5px;
+             border: 1px solid #ccc;
+             float: left;
+             width: 180px;
+        }
+
+        div.gallery:hover {
+             border: 1px solid #777;
+        }
+
+        div.gallery img {
+             width: 100%;
+             height: auto;
+        }
+
+        div.desc {
+              padding: 15px;
+              text-align: center;
+        }
+        .header{
+            background-color: darkgoldenrod;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -42,5 +96,23 @@
             <td>jd</td>
         </tr>
     </table>
+    <ul>
+        <li><a href="name">diba</a></li>
+        <li><a href="name">sid</a></li>
+        <li><a href="name">priji</a></li>
+        <li><a href="name">giri</a></li>
+    </ul>
+    <div id="name">
+        <p>hi everyone welcome to the digital world</p>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="img_5terre.jpg">
+          <img src="one.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">sea view</div>
+      </div>
+      <div class="header">
+          <h1><header></header></h1>
+      </div>
 </body>
 </html>
